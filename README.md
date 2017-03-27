@@ -25,4 +25,4 @@ http://machinelearningmastery.com/setup-python-environment-machine-learning-deep
 
 Zur Ueberpruefung das alle Pakete korrekt installiert sind, ladet bitte das folgende Jupyter-Notebook herunter und testet ob alle Zeilen kompilieren. Achtung, mit der Ausfuehrung der Zellen werden gleichzeitig vortrainierte Netzwerke von ca. 600 MB heruntergeladen:
 
-[https://raw.githubusercontent.com/Christian-Hirsch/kusanus/master/tech_check.ipynb]
+https://raw.githubusercontent.com/Christian-Hirsch/kusanus/master/tech_check.ipynb
