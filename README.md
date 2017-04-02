@@ -21,8 +21,14 @@ Tensorflow bietet weitreichende Flexibilitaeten bei der Konzeption eigener neuro
 
 http://machinelearningmastery.com/setup-python-environment-machine-learning-deep-learning-anaconda/
 
-## Installationsueberpruefung und Laden vortrainierter Datensaetze
+## Installationsueberpruefung und Laden vortrainierter Modelle
 
 Zur Ueberpruefung das alle Pakete korrekt installiert sind, ladet bitte das folgende Jupyter-Notebook herunter und testet ob alle Zeilen kompilieren. Achtung, mit der Ausfuehrung der Zellen werden gleichzeitig vortrainierte Netzwerke von ca. 600 MB heruntergeladen:
 
 https://raw.githubusercontent.com/Christian-Hirsch/kusanus/master/tech_check.ipynb
+
+
+## Datensaetze
+
+Wir werden weiterhin einige grosse Datensaetze zur Auswertung benoetigen. Naehere Details folgen in einer E-Mail ca.
+eine Woche vor Workshopbeginn.
