@@ -1,6 +1,6 @@
-# Deep-Learning Workshop auf der Kusanus-Akademie
+# Deep-Learning Workshop auf der Cusanus-Akademie
 
-Willkommen zum Deep-Learning Workshop auf der Kusanus-Akademie!
+Willkommen zum Deep-Learning Workshop auf der Cusanus-Akademie!
 
 ## Installation von Python 3 via Anaconda
 
