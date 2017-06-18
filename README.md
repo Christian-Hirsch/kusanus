@@ -22,6 +22,10 @@ Zur Überpruefung das alle Pakete korrekt installiert sind, ladet bitte das folg
 
 https://raw.githubusercontent.com/Christian-Hirsch/kusanus/master/tech_check.ipynb
 
+
+## Windows
+Vielen Dank an Daniel und Emil vom Kusanuswerk fuer die [Installationsnotizen](https://github.com/Christian-Hirsch/kusanus/blob/master/Installationssnotizen%20f%C3%BCr%20FST)!
+
 ## Notebooks
 
 Die im Workshop verwendeten [Notebooks](https://github.com/Christian-Hirsch/kusanus/blob/master/notebooks) basieren auf dem exzellenten Kurs [Practical Deep Learning For Coders](http://course.fast.ai/) von Jeremy Howard. Dort werden eine ganze weitere Reihe von Tricks vorgestellt; ich kann diesen Kurs nur jedem wärmstens ans Herz legen, der tiefer in *Deep Learning* einsteigen möchte!
