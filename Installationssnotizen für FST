@@ -1,0 +1,46 @@
+Schritt 1: Anaconda herunterladen.
+-> continuum.io/downloads -> Windows -> 64 Bit. Kein Problem.
+Schritt 2: Anaconda installieren.
+-> empfohlene Einstellungen nicht verändern (nur für aktuellen Benutzer, zu PATH hinzufügen).
+Schritt 3: Tensorflow installieren.
+-> https://www.tensorflow.org/install/install_windows#installing_with_anaconda
+
+?? Wie öffnet man eine Konsole ? Und welche Konsole ?
+-> Benutze cmd.exe, gehe mit dem Befehl "cd C:\" zum richtigen Ort
+-> Aufpassen! Tensorflow funktioniert nur für Python 3.5, aktuell ist bei Anaconda aber bereits 3.6 Standard. Daher:
+
+You can quickly create a 3.5 environment with: conda create -n tensorflow python=3.5
+
+$ activate tensorflow
+(tensorflow) username$ pip install ... (siehe website)
+(tensorflow) username$ python
+
+den Anweisungen auf der Website folgen. Es kommt nicht "Hello, Tensorflow" heraus sondern "b'Hello, Tensorflow'".
+
+Um die Python-Umgebung zu verlassen (erkennbar daran, dass die Zeilen mit ">>>" anfangen):
+>>> quit()
+
+Schritt 4: Jupyter Notebook in der neuen Umgebung installieren
+siehe http://stackoverflow.com/questions/37061089/trouble-with-tensorflow-in-jupyter-notebook
+
+(tensorflow) username$ conda install ipython
+(tensorflow) username$ conda install scipy
+(tensorflow) username$ conda install h5py
+(tensorflow) username$ pip install jupyter #(use pip3 for python3)
+(tensorflow) username$ pip install matplotlib pandas sklearn pillow
+
+Schritt 5: Jupyter Notebook starten (wichtig: aus der Tensorflow-Umgebung heraus) mit dem Befehl "jupyter notebook" (wichtig: nicht von C:\ sondern z.B. aus den Benutzerordner C:\Users\Benutzername oder C:\Benutzer\Benutzername, sonst kommt die Fehlermeldung Error: 404)
+
+Es öffnet sich ein Webbrowser, indem ihr nun eine Datei öffnen könnt.
+
+(tensorflow) $ jupyter notebook
+Schritt 6: Testen
+-> Testdatei speichern (Rechtsklick->Speichern unter...), irgendwo in deinem Benutzerordner (z.B. unter Dokumente/Cusanus/FSTKI/)
+-> Was ist ein Jupyter-Notebook und was soll man tun, um das zu kompilieren???
+--> https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/
+--> https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/execute.html
+
+h5py ist eine weitere benötigte Abhängigkeit, die in der ersten Zelle nicht getestet wird.
+
+Nach dem Ausführen der letzten Zelle gibt es kein Feedback, ob es funktioniert hat. Füge deshalb noch folgende Zeile hinzu:
+print("Success")

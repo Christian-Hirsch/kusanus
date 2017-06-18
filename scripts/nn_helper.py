@@ -51,7 +51,7 @@ def show_image(path):
     """
     show_array(img_to_array(load_img(path)))
     
-def show_array(arr, figure = None, cmap = None, figsize = (15, 15)):
+def show_array(arr, figure = None, cmap = None, figsize = (12, 12)):
     """Print an image given as array to the notebook
 
     #Arguments
