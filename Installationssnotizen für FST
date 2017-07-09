@@ -2,7 +2,7 @@ Schritt 1: Anaconda herunterladen.
 -> continuum.io/downloads -> Windows -> 64 Bit. Kein Problem.
 Schritt 2: Anaconda installieren.
 -> empfohlene Einstellungen nicht verändern (nur für aktuellen Benutzer, zu PATH hinzufügen).
-Schritt 3: Tensorflow installieren.
+Schritt  3: Tensorflow installieren.
 -> https://www.tensorflow.org/install/install_windows#installing_with_anaconda
 
 ?? Wie öffnet man eine Konsole ? Und welche Konsole ?
