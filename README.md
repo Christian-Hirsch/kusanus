@@ -4,7 +4,7 @@ Willkommen zum Deep-Learning Workshop auf der Cusanus-Akademie!
 
 ## Installation von Python 3 via Anaconda
 
-Die Programmiersprache des Workshops wird [Python](https://www.python.org/) sein. Ich empfehle die Installation von Python 3 via Anaconda, da hier gleichzeitig viele Pakete die wir verwenden automatisch mitgeliefert werden.
+Die Programmiersprache des Workshops wird [Python](https://www.python.org/) sein. Ich empfehle die Installation von Python 3 via Anaconda, da hier gleichzeitig viele Pakete die wir verwenden automatisch mitgeliefert werden. Anaconda ist eine Zusammenstellung von populären Python-Libraries im Data Science Bereich.
 
 https://www.continuum.io/downloads
 
